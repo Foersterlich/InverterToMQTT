@@ -1,0 +1,24 @@
+{
+   "mqtt": {
+       "server": "localhost",
+       "port": 8885,
+       "client_id": "InverterPublisher",
+       "username": "your_username",
+       "password": "your_password",
+       "topic": "InverterPublisher/data"
+   },
+   "inverters": [
+       {
+         "ip_address": "",
+         "auto_discover": false,
+         "inverterName": "",
+         "port": 8050
+       },
+       {
+         "ip_address": "",
+         "auto_discover": false,
+         "inverterName": "",
+         "port": 8050
+       }
+   ]
+}
